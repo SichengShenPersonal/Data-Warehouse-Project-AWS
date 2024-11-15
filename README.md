@@ -32,12 +32,12 @@ As the data engineer, I designed an ETL pipeline to extract data from S3, stage 
 
 # **Example Analytical Queries**
 
-The structured star schema database enables Sparkify to analyze user engagement and song popularity in various ways. Below are some example queries highlighting potential insights Sparkify’s analytics team can gain from this data:
+In this project, I’ve designed example queries that allow Sparkify to explore user engagement and song popularity. These queries serve as foundational analyses rather than highly optimized solutions, providing Sparkify’s analytics team with a starting point for gaining insights:
 
 1. **Top Played Songs**  
-   This query identifies the most frequently played songs on the platform, helping Sparkify determine which songs resonate most with users.
+   This query identifies the songs most frequently played by users, giving Sparkify a preliminary view of popular tracks and audience preferences.
 
 2. **Peak Usage Hours**  
-   This query analyzes the time of day with the highest user activity by hour, revealing peak times when users are most active and likely to engage with the app.
+   This query examines the times of day with the highest user activity, helping to reveal when users are most engaged on the app.
 
-These analyses provide Sparkify valuable insights into user behavior and preferences, supporting data-driven decisions to optimize content and user experience.
+These initial queries enable Sparkify to start making data-driven decisions, with potential for further tuning to maximize insight and efficiency as the platform grows.
