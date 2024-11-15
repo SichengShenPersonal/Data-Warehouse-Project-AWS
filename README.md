@@ -29,3 +29,15 @@ As the data engineer, I designed an ETL pipeline to extract data from S3, stage 
 
 4. **time**: This table provides time-related data that links to the songplay events, which can be derived from the `ts` column in `staging_events`.  
    **Columns**: `start_time`, `hour`, `day`, `week`, `month`, `year`, `weekday`.
+
+# **Example Analytical Queries**
+
+The structured star schema database enables Sparkify to analyze user engagement and song popularity in various ways. Below are some example queries highlighting potential insights Sparkify’s analytics team can gain from this data:
+
+1. **Top Played Songs**  
+   This query identifies the most frequently played songs on the platform, helping Sparkify determine which songs resonate most with users.
+
+2. **Peak Usage Hours**  
+   This query analyzes the time of day with the highest user activity by hour, revealing peak times when users are most active and likely to engage with the app.
+
+These analyses provide Sparkify valuable insights into user behavior and preferences, supporting data-driven decisions to optimize content and user experience.
